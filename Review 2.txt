@@ -1,0 +1,36 @@
+1.Food recognition is done
+2.CNN is used
+3.About training model
+-Preprocessing:
+	-pixel values range[0,1]
+	-random rotations upto 40 degree
+	-random zoom is applied
+	-shear angle in counter-clockwise direction in degrees
+-Training model
+	-trained 5 categories using classifier in CNN
+
+4.Convolution neural network (LeNet - inventor)
+-high accuracy
+-advanced algorithms
+-information acquisition -> preprocessing -> feature extraction -> classifier design & classifier decision
+-Layers 
+	-convolution layers
+	-pooling layers -spatial attributes
+	-sub-sampling layers
+	-fully-connected layers
+5.Food 101 Dataset
+-converted to HDF5 keras matrix
+-HDF5(Hierarchical Data Format version 5) is open source file format which uses a file directory which allows to organize data within file in many different structured ways
+-resolution around 512x512x3
+6.packages used
+-Keras neural network api
+-Caret classification and regression training
+	-data splitting,preprocessing,feature selection,model tuning,
+-Shiny
+	-An R package used to build interactive webapps
+	-It can also extend Shiny apps with CSS themes,html widgets and js actions
+-Shiny JS
+	-Used to write js functions
+-Shiny themes
+	-For CSS files
+
